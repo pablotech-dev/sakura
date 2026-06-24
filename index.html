@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sakura Sushi - Restaurante Japonés en Orihuela</title>
+  
+  <meta name="description" content="Disfruta del auténtico sushi y la gastronomía japonesa tradicional en el centro de Orihuela. Producto fresco de alta calidad.">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:title" content="Sakura Sushi - Restaurante Japonés">
+  <meta property="og:description" content="El arte del sushi tradicional en Orihuela. Ven a conocer nuestra carta completa.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=1200&q=80"> 
+  <meta property="og:type" content="website">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- SEO Local para Google -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Restaurante Sakura Sushi",
+  "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=500&q=80",
+  "telephone": "+34865752299",
+  "priceRange": "20€-30€",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Av. Teodomiro, 39",
+    "addressLocality": "Orihuela",
+    "addressRegion": "Alicante",
+    "postalCode": "03300",
+    "addressCountry": "ES"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "12:00",
+      "closes": "17:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "19:00",
+      "closes": "24:00"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">Sakura<span>Sushi</span></a>
+      
+      <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+      
+      <div class="nav-links">
+        <a href="#carta">La Carta</a>
+        <a href="#experiencia">Nuestra Esencia</a>
+        <a href="#informacion">Horarios y Contacto</a> 
+        <a href="#testimonios">Opiniones</a>
+        <a href="#ubicacion">Cómo Llegar</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero-restaurant">
+    <div class="container">
+      <span class="restaurant-tag">Gastronomía Japonesa Tradicional</span>
+      <h1>El arte del sushi clásico en el corazón de Orihuela</h1>
+      <p class="sub">Una experiencia culinaria única donde la frescura del producto y el respeto por la tradición asiática se fusionan en cada bocado.</p>
+      <div class="hero-actions-restaurant">
+        <a class="btn-rest primary" href="#carta">Ver la Carta Completa</a>
+        <a class="btn-rest secondary" href="tel:+34865752299">Llamar al Restaurante</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="carta" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Nuestra Carta</h2>
+        <p>Explora la variedad de la cocina nipona. Platos elaborados al momento por nuestros maestros sushiman.</p>
+      </div>
+      
+      <!-- CATEGORÍA 1: ENTRANTES -->
+      <div class="menu-category">
+        <h3>Entrantes / Zenizai</h3>
+      </div>
+      <div class="menu-list">
+        <div class="menu-item">
+          <div class="menu-item-details">
+            <span class="menu-item-title">Edamame Tradicional</span>
+            <p class="menu-item-desc">Vainas de soja verde al vapor con escamas de sal marina pura.</p>
+          </div>
+          <span class="menu-item-price">4,50€</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-details">
+            <span class="menu-item-title">Gyozas de Pollo y Verduras (5 uds.)</span>
+            <p class="menu-item-desc">Empanadillas japonesas a la plancha acompañadas de salsa ponzu artesanal.</p>
+          </div>
+          <span class="menu-item-price">6,80€</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-details">
+            <span class="menu-item-title">Ebi Tempura</span>
+            <p class="menu-item-desc">Langostinos crujientes rebozados en harina ligera de tempura japonesa.</p>
+          </div>
+          <span class="menu-item-price">9,50€</span>
+        </div>
+      </div>
+
+      <!-- CATEGORÍA 2: PASTAS Y ARROCES -->
+      <div class="menu-category">
+        <h3>Pastas y Arroces / Menrui & Gohan</h3>
+      </div>
+      <div class="menu-list">
+        <div class="menu-item">
+          <div class="menu-item-details">
+            <span class="menu-item-title">Yakisoba de Ternera</span>
+            <p class="menu-item-desc">Fideos finos salteados al wok con verduras frescas de temporada y salsa yakisoba.</p>
+          </div>
+          <span class="menu-item-price">10,50€</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-details">
+            <span class="menu-item-title">Yakimeshi Especial</span>
+            <p class="menu-item-desc">Arroz salteado con tortilla japonesa, langostinos, verduras y un toque de sésamo tostado.</p>
+          </div>
+          <span class="menu-item-price">8,90€</span>
+        </div>
+      </div>
+
+      <!-- CATEGORÍA 3: CARNES -->
+      <div class="menu-category">
+        <h3>Carnes / Yakimono</h3>
+      </div>
+      <div class="menu-list">
+        <div class="menu-item">
+          <div class="menu-item-details">
+            <span class="menu-item-title">Tori no Teriyaki</span>
+            <p class="menu-item-desc">Contramuslo de pollo tierno a la parrilla glaseado con nuestra salsa dulce teriyaki casera.</p>
+          </div>
+          <span class="menu-item-price">11,90€</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-details">
+            <span class="menu-item-title">Tataki de Buey</span>
+            <p class="menu-item-desc">Lomo de buey sellado a fuego alto, finamente fileteado con jengibre y salsa de cítricos.</p>
+          </div>
+          <span class="menu-item-price">14,50€</span>
+        </div>
+      </div>
+
+      <!-- CATEGORÍA 4: SUSHI, NIGIRIS Y SASHIMI -->
+      <div class="menu-category">
+        <h3>Sushi, Nigiris & Sashimi</h3>
+      </div>
+      <div class="menu-list">
+        <div class="menu-item">
+          <div class="menu-item-details">
+            <span class="menu-item-title">Nigiri de Salmón (Sake)</span>
+            <p class="menu-item-desc">Base de arroz de sushi premium cubierta con una lámina de salmón fresco cortado a mano.</p>
+          </div>
+          <span class="menu-item-price">4,20€</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-details">
+            <span class="menu-item-title">Uramaki Dragón Roll (8 uds.)</span>
+            <p class="menu-item-desc">Rollo invertido relleno de langostino en tempura y queso crema, cubierto de aguacate y salsa unagi.</p>
+          </div>
+          <span class="menu-item-price">12,80€</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-details">
+            <span class="menu-item-title">Sashimi Variado (9 cortes)</span>
+            <p class="menu-item-desc">Selección premium de cortes limpios de pescado crudo: 3 de salmón, 3 de atún y 3 de pez mantequilla.</p>
+          </div>
+          <span class="menu-item-price">15,00€</span>
+        </div>
+      </div>
+
+      <!-- CATEGORÍA 5: POSTRES -->
+      <div class="menu-category">
+        <h3>Postres Japoneses / Wagashi</h3>
+      </div>
+      <div class="menu-list">
+        <div class="menu-item">
+          <div class="menu-item-details">
+            <span class="menu-item-title">Mochis Artesanales (2 uds.)</span>
+            <p class="menu-item-desc">Pastel tradicional de arroz glutinoso relleno de helado. Sabores a elegir: Té verde o Chocolate.</p>
+          </div>
+          <span class="menu-item-price">5,00€</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-details">
+            <span class="menu-item-title">Dorayaki de Anko</span>
+            <p class="menu-item-desc">Bizcocho tierno japonés relleno de la clásica pasta dulce de judía roja roja.</p>
+          </div>
+          <span class="menu-item-price">4,50€</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="experiencia" class="section alt">
+    <div class="container grid-2col">
+      <div class="nosotros-content">
+        <h2>Una atmósfera diseñada para disfrutar</h2>
+        <p>En Sakura Sushi cuidamos tanto la puesta en escena de nuestros platos como el entorno en el que se degustan. Ubicado en la emblemática Avenida Teodomiro de Orihuela, nuestro restaurante ofrece un espacio íntimo, minimalista y cálido perfecto para sumergirse en la cultura gastronómica de Japón.</p>
+        <p>Ya sea para disfrutar de una cena relajada en pareja o compartir una comida en familia, creamos el balance perfecto entre frescura, tradición y un servicio atento.</p>
+      </div>
+      <div class="nosotros-image-placeholder" style="background-image: url('https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=600&q=80'); background-size: cover; height: 350px;">
+      </div>
+    </div>
+  </section>
+
+  <section id="informacion" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Horarios y Reservas</h2>
+        <p>Planifica tu visita. Te recomendamos llamar con antelación para asegurar tu mesa.</p>
+      </div>
+      
+      <div class="info-card-container">
+        <div class="info-block">
+          <h3>Nuestro Horario</h3>
+          <p class="days">De Lunes a Domingo</p>
+          <p class="hours">Almuerzos: 12:00 h a 17:00 h</p>
+          <p class="hours">Cenas: 19:00 h a 24:00 h</p>
+        </div>
+        
+        <div class="info-block highlight">
+          <h3>Contacto Telefónico</h3>
+          <p class="phone-label">Teléfono de atención y reservas:</p>
+          <a href="tel:+34865752299" class="phone-number">865 75 22 99</a>
+          <p class="phone-note">* No se realizan pedidos a domicilio online, consulte disponibilidad telefónica.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonios" class="section alt"> 
+    <div class="container">
+      <div class="section-header">
+        <h2>Lo que dicen nuestros comensales</h2>
+        <p>Con una valoración media de 4,5 estrellas en Google basada en más de 120 opiniones de clientes locales.</p>
+      </div>
+      <div class="grid">
+        <div class="testimonial-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>"El mejor sushi de Orihuela sin duda. El pescado se nota fresquísimo y el trato es de diez. El uramaki dragón es espectacular."</p>
+          <span class="client-name">- Alejandro M.</span>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>"Un local muy acogedor en pleno centro. La relación calidad precio es estupenda (sales por unos 20-30€ por persona comiendo de maravilla). Volveremos."</p>
+          <span class="client-name">- Laura S.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="ubicacion" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Dónde encontrarnos</h2>
+        <p>Av. Teodomiro, 39, 03300 Orihuela, Alicante</p>
+      </div>
+      <div class="map-wrapper">
+        <!-- Mapa centrado en la ubicación aproximada de Orihuela - Av Teodomiro -->
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.4357283625475!2d-0.9490123!3d38.0812345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd63b123456789ab%3A0x1234567890abcdef!2sAv.%20Teodomiro%2C%2039%2C%2003300%20Orihuela%2C%20Alicante!5e0!3m2!1ses!2ses!4v1710000000000!5m2!1ses!2ses" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2026 Restaurante Sakura Sushi. Todos los derechos reservados.</p>
+      <div class="footer-links">
+        <a href="#">Aviso Legal</a> | <a href="#">Política de Privacidad</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botón flotante para llamada telefónica directa (sustituyendo WhatsApp por comodidad informativa del local) -->
+  <a href="tel:+34865752299" class="phone-floating" title="Llamar para reservar">
+    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+    </svg>
+  </a>
+
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+      });
+    });
+  </script>
+</body>
+</html>
